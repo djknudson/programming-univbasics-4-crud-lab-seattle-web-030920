@@ -20,17 +20,17 @@ end
 
 def remove_element_from_end_of_array(array)
   array.pop()
-  return array
+  # return array
 end
 
 def remove_element_from_start_of_array(array)
   array.shift()
-  return array
+  # return array
 end
 
 def retrieve_element_from_index(array, index_number)
   array.delete_at(index_number)
-  return array
+  # return array
 end
 
 def retrieve_first_element_from_array(array)
